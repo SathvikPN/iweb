@@ -76,7 +76,7 @@ const App = () => {
 
 
       <hr />
-      <div>Min: {date} </div>
+      <div>Date: {date} </div>
     </div>
   )
 }
