@@ -41,7 +41,7 @@ const App = () => {
   return (
     <div>
       <h1>Anecdote of the day</h1>
-      <p>Anecdote: {anecdotes[selected]}</p>
+      <p>{anecdotes[selected]}</p>
       <p>VoteCount: {votes[selected]} </p>
 
       <button onClick={handleClickVoteAnecdote}>
